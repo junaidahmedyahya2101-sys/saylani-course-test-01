@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen bg-white">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wishlist</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen">
+
+  <!-- Top Banner -->
+  <div class="bg-black text-white text-center py-2 text-sm">
+        <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a href="home.html"
+                class="underline font-bold ml-2">ShopNow</a></p>
+    </div>
+
+    <nav class="border-b border-gray-200">
+        <div class="container mx-auto px-4 lg:px-20 py-6 flex flex-wrap justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-wider">Exclusive</h1>
+
+            <ul class="flex space-x-8 ">
+                <li><a href="home.html" class="hover:underline">Home</a></li>
+                <li><a href="contact.html" class="hover:underline">Contact</a></li>
+                <li><a href="about.html" class="hover:underline">About</a></li>
+                <li><a href="signup.html" class="hover:underline">Sign Up</a></li>
+            </ul>
+
+            <div class="flex items-center space-x-6">
+                <div class="relative hidden sm:block">
+                    <input type="text" placeholder="What are you looking for?"
+                        class="bg-gray-100 px-4 py-2 pr-10 rounded text-sm w-64 focus:outline-none">
+                    <i class="fa-solid fa-magnifying-glass absolute right-3 top-2.5 text-gray-500"></i>
+                </div>
+                <div class="flex space-x-4 text-xl">
+                    <i class="fa-regular fa-heart cursor-pointer"></i>
+                    <i class="fa-solid fa-cart-shopping cursor-pointer"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  <!-- Wishlist Section -->
+  <main class="flex-1 max-w-7xl mx-auto px-4 py-10">
+    <div class="flex items-center justify-between mb-8">
+      <h2 class="text-2xl font-medium">Wishlist (4)</h2>
+      <button class="border border-gray-400 px-6 py-3 rounded hover:bg-gray-50">Move All To Bag</button>
+    </div>
+
+    <!-- Wishlist Products -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+      <!-- Product 1 -->
+      <div class="group relative">
+        <div class="bg-gray-100 rounded overflow-hidden relative">
+          <span class="absolute top-2 left-2 bg-red-600 text-white text-xs px-2 py-1 rounded">-35%</span>
+          <button class="absolute top-2 right-2 bg-white rounded-full p-2 opacity-0 group-hover:opacity-100 transition">🗑️</button>
+          <img src="Frame 606.png" alt="Gucci duffle bag" class="w-full h-64 object-cover">
+          <button class="absolute bottom-0 left-0 right-0 bg-black text-white py-3 opacity-0 group-hover:opacity-100 transition">Add to Cart</button>
+        </div>
+        <div class="mt-4">
+          <h3 class="font-medium">Gucci duffle bag</h3>
+          <p class="text-red-600">$960 <span class="text-gray-500 line-through ml-2">$1160</span></p>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="group relative">
+        <div class="bg-gray-100 rounded overflow-hidden relative">
+          <button class="absolute top-2 right-2 bg-white rounded-full p-2 opacity-0 group-hover:opacity-100 transition">🗑️</button>
+          <img src="Frame 606.png" alt="RGB liquid CPU Cooler" class="w-full h-64 object-cover">
+          <button class="absolute bottom-0 left-0 right-0 bg-black text-white py-3 opacity-0 group-hover:opacity-100 transition">Add to Cart</button>
+        </div>
+        <div class="mt-4">
+          <h3 class="font-medium">RGB liquid CPU Cooler</h3>
+          <p class="text-red-600">$1960</p>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="group relative">
+        <div class="bg-gray-100 rounded overflow-hidden relative">
+          <button class="absolute top-2 right-2 bg-white rounded-full p-2 opacity-0 group-hover:opacity-100 transition">🗑️</button>
+          <img src="Frame 606.png" alt="GP11 Shooter USB Gamepad" class="w-full h-64 object-cover">
+          <button class="absolute bottom-0 left-0 right-0 bg-black text-white py-3 opacity-0 group-hover:opacity-100 transition">Add to Cart</button>
+        </div>
+        <div class="mt-4">
+          <h3 class="font-medium">GP11 Shooter USB Gamepad</h3>
+          <p class="text-red-600">$550</p>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="group relative">
+        <div class="bg-gray-100 rounded overflow-hidden relative">
+          <button class="absolute top-2 right-2 bg-white rounded-full p-2 opacity-0 group-hover:opacity-100 transition">🗑️</button>
+          <img src="Frame 606.png" alt="Quilted Satin Jacket" class="w-full h-64 object-cover">
+          <button class="absolute bottom-0 left-0 right-0 bg-black text-white py-3 opacity-0 group-hover:opacity-100 transition">Add to Cart</button>
+        </div>
+        <div class="mt-4">
+          <h3 class="font-medium">Quilted Satin Jacket</h3>
+          <p class="text-red-600">$750</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Just For You Section -->
+    <div class="flex items-center justify-between mb-8">
+      <h2 class="text-2xl font-medium flex items-center gap-3">
+        <span class="w-5 h-10 bg-red-600 rounded"></span> Just For You
+      </h2>
+      <button class="border border-gray-400 px-6 py-3 rounded hover:bg-gray-50">See All</button>
+    </div>
+
+    <!-- Recommended Products -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <!-- Product 1 -->
+      <div class="group relative">
+        <div class="bg-gray-100 rounded overflow-hidden relative">
+          <span class="absolute top-2 left-2 bg-red-600 text-white text-xs px-2 py-1 rounded">-30%</span>
+          <img src="Frame 608.png" alt="ASUS FHD Gaming Laptop" class="w-full h-64 object-cover">
+          <button class="absolute bottom-0 left-0 right-0 bg-black text-white py-3 opacity-0 group-hover:opacity-100 transition">Add to Cart</button>
+        </div>
+        <div class="mt-4">
+          <h3 class="font-medium">ASUS FHD Gaming Laptop</h3>
+          <p class="text-red-600">$700</p>
+          <div class="flex text-yellow-500 text-sm">★★★★☆ <span class="text-gray-500 ml-2">(65)</span></div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="group relative">
+        <div class="bg-gray-100 rounded overflow-hidden relative">
+          <img src="Frame 608.png" alt="IPS LCD Gaming Monitor" class="w-full h-64 object-cover">
+          <button class="absolute bottom-0 left-0 right-0 bg-black text-white py-3 opacity-0 group-hover:opacity-100 transition">Add to Cart</button>
+        </div>
+        <div class="mt-4">
+          <h3 class="font-medium">IPS LCD Gaming Monitor</h3>
+          <p class="text-red-600">$1160</p>
+          <div class="flex text-yellow-500 text-sm">★★★★★ <span class="text-gray-500 ml-2">(65)</span></div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="group relative">
+        <div class="bg-gray-100 rounded overflow-hidden relative">
+          <span class="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded">NEW</span>
+          <img src="Frame 608.png" alt="HAVIT HV-G92 Gamepad" class="w-full h-64 object-cover">
+          <button class="absolute bottom-0 left-0 right-0 bg-black text-white py-3 opacity-0 group-hover:opacity-100 transition">Add to Cart</button>
+        </div>
+        <div class="mt-4">
+          <h3 class="font-medium">HAVIT HV-G92 Gamepad</h3>
+          <p class="text-red-600">$560</p>
+          <div class="flex text-yellow-500 text-sm">★★★★★ <span class="text-gray-500 ml-2">(93)</span></div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="group relative">
+        <div class="bg-gray-100 rounded overflow-hidden relative">
+          <img src="Frame 608.png" alt="AK-900 Wired Keyboard" class="w-full h-64 object-cover">
+          <button class="absolute bottom-0 left-0 right-0 bg-black text-white py-3 opacity-0 group-hover:opacity-100 transition">Add to Cart</button>
+        </div>
+        <div class="mt-4">
+          <h3 class="font-medium">AK-900 Wired Keyboard</h3>
+          <p class="text-red-600">$200</p>
+          <div class="flex text-yellow-500 text-sm">★★★★☆ <span class="text-gray-500 ml-2">(65)</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-black text-white pt-20 pb-6">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-10 mb-16">
+            <div class="space-y-4">
+                <h2 class="text-xl font-bold">Exclusive</h2>
+                <h3 class="text-lg font-medium">Subscribe</h3>
+                <p class="text-sm">Get 10% off your first order</p>
+                <div class="relative border border-white rounded p-3 flex items-center">
+                    <input type="email" placeholder="Enter your email"
+                        class="bg-transparent text-sm focus:outline-none w-full">
+                    <svg class="w-5 h-5 ml-2 cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <div class="space-y-4">
+                <h2 class="text-xl font-bold">Support</h2>
+                <p class="text-sm">111 Bijoy sarani, Dhaka,<br> DH 1515, Bangladesh.</p>
+                <p class="text-sm">exclusive@gmail.com</p>
+                <p class="text-sm">+88015-88888-9999</p>
+            </div>
+            <div class="space-y-4">
+                <h2 class="text-xl font-bold">Account</h2>
+                <ul class="space-y-3 text-sm text-gray-300">
+                    <li>My Account</li>
+                    <li>Login / Register</li>
+                    <li>Cart</li>
+                    <li>Wishlist</li>
+                    <li>Shop</li>
+                </ul>
+            </div>
+            <div class="space-y-4">
+                <h2 class="text-xl font-bold">Quick Link</h2>
+                <ul class="space-y-3 text-sm text-gray-300">
+                    <li>Privacy Policy</li>
+                    <li>Terms Of Use</li>
+                    <li>FAQ</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="space-y-4">
+                <h2 class="text-xl font-bold">Download App</h2>
+                <p class="text-xs text-gray-400 font-medium">Save $3 with App New User Only</p>
+                <div class="flex space-x-2">
+                    <div class="bg-white p-1 rounded-sm"><img src="images/QrCode.png" alt=""></div>
+                    <div class="flex flex-col justify-between py-1">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                            class="w-24" alt="Play Store">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                            class="w-24" alt="App Store">
+                    </div>
+                </div>
+                <div class="flex space-x-6 pt-2">
+                    <img src="Icon-Facebook.png" alt="">
+                    <img src="Icon-Twitter.png" alt="">
+                    <img src="icon-instagram.png" alt="">
+                    <img src="Icon-Linkedin.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 pt-4 text-center text-gray-500 text-sm">
+            <p>&copy; Copyright Rimel 2022. All right reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
